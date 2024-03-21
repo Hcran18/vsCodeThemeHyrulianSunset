@@ -1,0 +1,25 @@
+{
+  "name": "hylian-sunset",
+  "displayName": "Hylian Sunset",
+  "description": "Theme based on sunset from The Legend of Zelda Tears of the Kingdom",
+  "version": "0.0.1",
+  "publisher": "HunterCrandall",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hcran18/vsCodeThemeHyrulianSunset.git"},
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hylian Sunset",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hylian Sunset-color-theme.json"
+      }
+    ]
+  }
+}
